@@ -7,8 +7,10 @@ import { Usermodel } from '../../interface/usermodel';
   templateUrl: './users.html',
 })
 export class Users {
-  contacts: Usermodel = [
-    {name: "ggg",email:"hgfd",phone:"ghjk",status:true},
-    {name: "ggg",email:"hgfd",phone:"ghjk",status:true}
+  contactList: Usermodel[] = [
+    {name:"tali",
+    email:"talywaser@",
+    phone:"0556772592",
+    status:true}
   ]
 }

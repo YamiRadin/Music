@@ -1,1 +1,8 @@
-<p>users works!</p>
+
+@for (contactList of items; track contactList.items)
+{
+   <p>{{ contactList.name }}</p>
+   <p>{{ contactList.email }}</p>
+   <p>{{ contactList.phone }}</p>
+   <p>{{ contactList.status }}</p>
+}

@@ -7,8 +7,8 @@ import { Usermodel } from '../../interface/usermodel';
   templateUrl: './users.html',
 })
 export class Users {
-  contacts: Usermodel = [
-    {name: "ggg",email:"hgfd",phone:"ghjk",status:true},
-    {name: "ggg",email:"hgfd",phone:"ghjk",status:true}
-  ]
+  // contacts: Usermodel = [
+  //   {name: "ggg",email:"hgfd",phone:"ghjk",status:true},
+  //   {name: "ggg",email:"hgfd",phone:"ghjk",status:true}
+  // ]
 }
